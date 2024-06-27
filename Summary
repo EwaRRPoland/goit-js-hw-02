@@ -1,0 +1,15 @@
+# Podsumowanie zadania
+
+## W trakcie wykonywania zadania trzeba było zmierzyć się z zagadnieniami:
+
+1. Własciwa struktura kataloogów i plików:
+
+Po pierwsze należało okreslić gdzie i jakie pliki mają sie znajdować.
+
+
+
+2. instalacja Jasmine globalnie na komputerze w ``VScode``,
+
+3. zmiana polityki wykonywania w ``Microsoft PowerShell`` z poziomu administratora komendą ``Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`` 
+
+4. uruchomienie testów w terminalu w ``VScode``
