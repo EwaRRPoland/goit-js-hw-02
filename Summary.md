@@ -6,9 +6,8 @@
 
 Po pierwsze należało okreslić gdzie i jakie pliki mają sie znajdować.
 Wypracowana struktura poniżej.
-
+```
 ## goit-js-hw-02/
-
 ├── src/
 │ ├── calculate.js
 │ ├── checkAge.js
@@ -19,6 +18,7 @@ Wypracowana struktura poniżej.
 └── spec/
 ├── calculate.test.js
 └── checkAge.test.js
+```
 
 2. Instalacja Jasmine globalnie na komputerze w `VScode`:
 
@@ -31,5 +31,7 @@ Tworzymy projekt, w moim przypadku `myProject` i z poziomu tego katalogu będzie
 Ale wcześniej trzeba:
 
 3. Zmiana polityki wykonywania w `Microsoft PowerShell` z poziomu administratora komendą `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
+
+![](https://github.com/EwaRRPoland/goit-js-hw-02/blob/ffe5fbec1e704b5deb0f00696a6576ad16574641/assets/PowerShell.jpg)
 
 4. uruchomienie testów w terminalu w `VScode`
