@@ -1,14 +1,15 @@
 // checkAge.test.js
-const isAdult = require('./checkAge');
+const isAdult = require('../src/checkAge');
+describe('isAdult function', () => {
+  it('checks if a person aged 20 is an adult', () => {
+    expect(isAdult(20)).toBe(true);
+  });
 
-test('Sprawdza czy osoba o wieku 20 lat jest pełnoletnia', () => {
-  expect(isAdult(20)).toBe(true);
-});
+  it('checks if a person aged 16 is an adult', () => {
+    expect(isAdult(16)).toBe(false);
+  });
 
-test('Sprawdza czy osoba o wieku 16 lat jest pełnoletnia', () => {
-  expect(isAdult(16)).toBe(false);
-});
-
-test('Sprawdza czy osoba o wieku 18 lat jest pełnoletnia', () => {
-  expect(isAdult(18)).toBe(true);
+  it('checks if a person aged 18 is an adult', () => {
+    expect(isAdult(18)).toBe(true);
+  });
 });
