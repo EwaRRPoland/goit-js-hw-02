@@ -2,7 +2,7 @@
 
 # W trakcie wykonywania zadania trzeba było zmierzyć się z zagadnieniami:
 
-## 1. Własciwa struktura kataloogów i plików:
+## 1. Własciwa struktura katalogów i plików:
 
 Po pierwsze należało okreslić gdzie i jakie pliki mają sie znajdować.
 Wypracowana struktura poniżej.
@@ -15,7 +15,7 @@ Wypracowana struktura poniżej.
 │ ├── support/
 │ └── jasmine.json
 │
-└── spec/
+├── spec/
 ├── calculate.test.js
 └── checkAge.test.js
 ```
