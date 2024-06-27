@@ -11,21 +11,6 @@ function calculateRectangleArea(length, width) {
 
 module.exports = calculateRectangleArea;
 
-// calculate.test.js
-const calculateRectangleArea = require('./calculate');
-
-test('Oblicza pole prostokąta o długości 5 i szerokości 4', () => {
-  expect(calculateRectangleArea(5, 4)).toBe(20);
-});
-
-test('Oblicza pole prostokąta o długości 3 i szerokości 7', () => {
-  expect(calculateRectangleArea(3, 7)).toBe(21);
-});
-
-test('Oblicza pole prostokąta o długości 10 i szerokości 10', () => {
-  expect(calculateRectangleArea(10, 10)).toBe(100);
-});
-
 ```
 ## Zadanie 2
 
@@ -37,21 +22,6 @@ function isAdult(age) {
 }
 
 module.exports = isAdult;
-
-// checkAge.test.js
-const isAdult = require('./checkAge');
-
-test('Sprawdza czy osoba o wieku 20 lat jest pełnoletnia', () => {
-  expect(isAdult(20)).toBe(true);
-});
-
-test('Sprawdza czy osoba o wieku 16 lat jest pełnoletnia', () => {
-  expect(isAdult(16)).toBe(false);
-});
-
-test('Sprawdza czy osoba o wieku 18 lat jest pełnoletnia', () => {
-  expect(isAdult(18)).toBe(true);
-});
 
 ```
 
@@ -77,22 +47,6 @@ module.exports = calculateRectangleArea;
 Stwórz nowy plik testowy JavaScript o nazwie ``calculate.test.js``.
 W pliku ``calculate.test.js``, użyj funkcji test z biblioteki testowej (np. ``Jest``), aby napisać testy dla funkcji ``calculateRectangleArea``.
 
-```// calculate.test.js
-const calculateRectangleArea = require('./calculate');
-
-test('Oblicza pole prostokąta o długości 5 i szerokości 4', () => {
-  expect(calculateRectangleArea(5, 4)).toBe(20);
-});
-
-test('Oblicza pole prostokąta o długości 3 i szerokości 7', () => {
-  expect(calculateRectangleArea(3, 7)).toBe(21);
-});
-
-test('Oblicza pole prostokąta o długości 10 i szerokości 10', () => {
-  expect(calculateRectangleArea(10, 10)).toBe(100);
-});
-
-```
 
 Uruchom testy, aby sprawdzić, czy funkcja ``calculateRectangleArea`` działa poprawnie.
 
@@ -107,27 +61,6 @@ function isAdult(age) {
 }
 
 module.exports = isAdult;
-
-```
-
-Stwórz nowy plik testowy JavaScript o nazwie ``checkAge.test.js``.
-W pliku ``checkAge.test.js``, użyj funkcji test z biblioteki testowej (np. ``Jest``), aby napisać testy dla funkcji ``isAdult``.
-
-```// checkAge.test.js
-const isAdult = require('./checkAge');
-
-test('Sprawdza czy osoba o wieku 20 lat jest pełnoletnia', () => {
-  expect(isAdult(20)).toBe(true);
-});
-
-test('Sprawdza czy osoba o wieku 16 lat jest pełnoletnia', () => {
-  expect(isAdult(16)).toBe(false);
-});
-
-test('Sprawdza czy osoba o wieku 18 lat jest pełnoletnia', () => {
-  expect(isAdult(18)).toBe(true);
-});
-
 ```
 Uruchom testy, aby sprawdzić, czy funkcja ``isAdult`` działa poprawnie.
 Po wykonaniu powyższych kroków, sprawdź czy testy przechodzą, a funkcje zachowują się zgodnie z oczekiwaniami.
