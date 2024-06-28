@@ -15,9 +15,9 @@ Wypracowana struktura poniżej.
 │ ├── support/
 │ └── jasmine.json
 │
-├── spec/
-├── calculate.test.js
-└── checkAge.test.js
+└── spec/
+  ├── calculate.test.js
+  └── checkAge.test.js
 ```
 
  ## 2. Instalacja Jasmine globalnie na komputerze w `VScode`:
